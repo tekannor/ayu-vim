@@ -83,6 +83,7 @@ exe "let s:fmt_revb = ' gui=NONE".s:r.s:b.  " cterm=NONE".s:r.s:b.  " term=NONE"
 
 " Vim Highlighting: (see :help highlight-groups)"{{{
 " ----------------------------------------------------------------------------
+
 exe "hi! Normal"        .s:fg_fg          .s:bg_bg          .s:fmt_none
 exe "hi! ColorColumn"   .s:fg_none        .s:bg_line        .s:fmt_none
 " Conceal, Cursor, CursorIM
@@ -275,3 +276,11 @@ hi! link diffAdded String
 let &background = s:style
 
 " }}}
+
+hi CSSUnitDecorators guifg=#ff7733
+hi cssAttr gui=standout guifg=#ff7733
+hi jsImport guifg=#ff7733
+hi htmlTagName guifg=#31ace0
+hi htmlSpecialTagName guifg=#31ace0
+hi htmlTag guifg=#31ace0
+hi Number guifg=#f4cd55
