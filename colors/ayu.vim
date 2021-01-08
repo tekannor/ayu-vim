@@ -277,6 +277,7 @@ let &background = s:style
 
 " }}}
 
+hi htmlArg guifg=#ff7733
 hi CSSUnitDecorators guifg=#ff7733
 hi cssAttr gui=standout guifg=#ff7733
 hi jsImport guifg=#ff7733
