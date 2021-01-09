@@ -277,14 +277,13 @@ let &background = s:style
 
 " }}}
 
-
-hi Identifier guifg=#31ace0
-
-" hi htmlArg guifg=#ff7733
-" hi CSSUnitDecorators guifg=#ff7733
-" hi cssAttr gui=standout guifg=#ff7733
-" hi jsImport guifg=#ff7733
-" hi htmlTagName guifg=#31ace0
-" hi htmlSpecialTagName guifg=#31ace0
-" hi htmlTag guifg=#31ace0
-" hi Number guifg=#f4cd55
+hi link htmlArg PreProc
+hi CSSUnitDecorators guifg=#ff7733
+hi cssAttr gui=standout guifg=#ff7733
+hi jsImport guifg=#ff7733
+hi link typescriptImport jsImport
+hi htmlTagName guifg=#31ace0
+hi htmlSpecialTagName guifg=#31ace0
+hi htmlTag guifg=#31ace0
+hi link jsxAttrib htmlArg
+hi Number guifg=#f4cd55
