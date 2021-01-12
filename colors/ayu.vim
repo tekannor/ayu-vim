@@ -287,3 +287,4 @@ hi htmlSpecialTagName guifg=#31ace0
 hi htmlTag guifg=#31ace0
 hi link jsxAttrib htmlArg
 hi Number guifg=#f4cd55
+hi link cssVendor Normal
