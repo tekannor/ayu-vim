@@ -279,7 +279,7 @@ let &background = s:style
 
 hi link htmlArg PreProc
 hi CSSUnitDecorators guifg=#ff7733
-hi cssAttr gui=standout guifg=#ff7733
+hi cssAttr gui=italic guifg=#ff7733
 hi jsImport guifg=#ff7733
 hi link typescriptImport jsImport
 hi htmlTagName guifg=#31ace0
